@@ -7,7 +7,15 @@ var Compensation = mongoose.model('Compensation', {
     hra: { type: Number },
     lta: { type: Number },
     bonus: { type: Number },
+    ctcm: { type: Number },
+    basicm: { type: Number },
+    hram: { type: Number },
+    ltam: { type: Number },
+    bonusm: { type: Number },
 
 });
 
+
+
 module.exports = { Compensation };
+//module.exports = { CompMonth };
